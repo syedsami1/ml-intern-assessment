@@ -1,6 +1,7 @@
 import pytest
 from src.ngram_model import TrigramModel
 
+
 def test_fit_and_generate():
     model = TrigramModel()
     text = "I am a test sentence. This is another test sentence."
